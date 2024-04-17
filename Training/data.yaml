@@ -1,0 +1,19 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 50
+names: [ 'Alert', 'Animal Crossing', 'bike lane', 'Blow horn', 'Car lane',
+    'children crossing', 'Crossroad', 'Curve Road', "Don't blow horn",
+    "Don't look up", "Don't turn left", "Don't turn left or right",
+    "Don't turn right", 'Give way', 'Go ahead', 'go slow', 'Heavy Vehicles',
+    'Keep left', 'Keep Left', 'Keep right', 'Merge road', 'Narrow road ahead',
+    'No entry', 'No entry for heavy vehicles', 'No overtake',
+    'No overtake from right', 'No Parking', 'No parking', 'No Stopping',
+    'No U-turn', 'No waiting', 'Parking', 'Pedestrian crossing',
+    'Road closing', 'Road widens', 'Slippery road', 'Snowy road',
+    'Speed Breaker ahead', 'Speed limit', 'Stop', 'Traffic lights',
+    'Traffic lights ahead', 'Turn left', 'Turn left or right', 'Turn right',
+    'Turn straight or right', 'Two way', 'U turn', 'Uneven road',
+    'Work in Progress'
+]
